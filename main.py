@@ -39,9 +39,9 @@ def main():
         if counter % 2 == 0:
             write_input('X')
         else:
-            write_input('O')
+            write_input('O:')
         if counter > 3:
-            winner = win_points
+           for winner in win_points:
             if winner:
                 paint_board()
                 print("Вы выиграли")
