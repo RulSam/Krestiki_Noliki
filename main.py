@@ -45,7 +45,7 @@ def main():
             if winner:
                 paint_board()
                 print("Вы выиграли")
-                break
+           break
         counter += 1
         if counter > 8:
             paint_board()
