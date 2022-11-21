@@ -39,7 +39,7 @@ def main():
         if counter % 2 == 0:
             write_input('X')
         else:
-            write_input('O:')
+            write_input('O')
         if counter > 3:
            for winner in win_points:
             if winner:
